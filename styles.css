@@ -1,0 +1,101 @@
+h1 {
+	/* color: green; */
+	text-align: center;
+
+}
+
+h1, h2 {
+	font-family: "Open Sans";
+}
+h2 {
+	font-size: 40px;
+}
+
+body {
+	background-color: #eee;
+	height: 1500px;
+	font-size: 20px;
+}
+
+
+* { 
+	text-align: center;
+
+}
+
+
+.parallax { 
+    /* The image used */
+    background-image: url("background-min.jpg");
+    height: 500px; 
+    width: 100%!important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-2 { 
+    /* The image used */
+    background-image: url("parallax-2.jpg");
+    height: 500px; 
+    width: 100%!important;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-padding {
+	padding: 50px;
+}
+
+.parallax-text {
+
+	padding-top: 200px;
+	color: white;
+	font-size: 3em;
+}
+
+
+.banner {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.banner a {
+color: white;
+}
+
+.banner p {
+	color: white;
+}
+.divider {
+	color: black;
+	border-top: 3px solid black;
+}
+
+large {
+	font-size: 30px;
+}
+
+
+@media (max-width: 768px) {
+   
+    body {
+        font-size: 16px
+    }
+}
+
+#projects{
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+
+.nav-links {
+	padding-top: 15px;
+}
+
+p {
+    font-family: "Arvo", "Helvetica";
+}
