@@ -89,7 +89,7 @@ large {
 }
 
 #projects{
-	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+	background-image: linear-gradient(to right, #514363 0%, #bb8dd0 100%);
 }
 
 .nav-links {
@@ -99,3 +99,4 @@ large {
 p {
     font-family: "Arvo", "Helvetica";
 }
+
