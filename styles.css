@@ -23,31 +23,10 @@ body {
 
 }
 
-
-.parallax { 
-    /* The image used */
-    background-image: url("background-min.jpg");
-    height: 500px; 
-    width: 100%!important;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax-2 { 
-    /* The image used */
-    background-image: url("parallax-2.jpg");
-    height: 500px; 
-    width: 100%!important;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* here*/
 
 .title-padding {
-	padding: 50px;
+	padding: 150px;
 }
 
 .parallax-text {
@@ -152,3 +131,28 @@ p {
 .fa-linkedin {
     color: rgb(53, 124, 216);
 }
+
+/* -------------------------------- PARTICAL BACKGROUND ---------------------------------------*/
+/* ---- reset ---- */
+
+body {
+    margin: 0;
+    }
+  
+  canvas {
+    display: block;
+    vertical-align: bottom;
+  }
+  
+  /* ---- particles.js container ---- */
+  
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #1c82e2;
+    background-image: url("earth-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
